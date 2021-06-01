@@ -1,0 +1,48 @@
+body {
+	padding-top: 70px;
+    background-image: url(https://images.unsplash.com/photo-1471696035578-3d8c78d99684?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+	background-position: center;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background-color: #ecf0f1;
+	background: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80);
+	background-size: cover;
+	background-position: center;
+    height: max-content;
+    width: 70%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+	color: darksalmon;
+    border: whitesmoke 5px dotted;
+}
+
+.stuff {
+    color: wheat;
+    text-transform: uppercase;
+}
+
+.jumbotron p {
+    font-weight: bold;
+}
+
+.navbar {
+	background-color: #232323;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: black;
+	background-color: wheat;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: darkgoldenrod;
+}
